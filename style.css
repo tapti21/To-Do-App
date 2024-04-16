@@ -1,0 +1,88 @@
+
+
+body {
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-decoration: underline;
+    color: aqua;
+}
+#text{
+    width:60vh;
+    font-size: 20px;
+    height: 5vh;
+    border: 3px solid red;
+    border-radius: 6px;
+   
+}
+#container{
+    background-image: url(bg1.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 2px solid red;
+    
+  
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 50px 50px;
+    position:absolute;
+    right: 50vh;
+    top: 25vh;
+
+}
+#add-todo [type=text] {
+    width: 90%;
+    max-width: 300px;
+    margin: 50px auto 0px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+    margin-left: 300px;
+  
+}
+#todo-list,
+#tabbed-content {
+    margin: 30px;
+}
+
+#todo-list ul,
+#tabbed-content ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#todo-list li {
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    font-family: Geneva, sans-serif;
+    font-weight: bolder;
+}
+
+#todo-list li:hover {
+    border-color: #9361bf;
+    cursor: pointer;
+    background-color: rgb(228, 169, 188);
+}
+
+#add-todo button {
+    color: white;
+    background: #de47a6;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+   
+}
+.edit:hover,
+.delete:hover,
+#add-todo button:hover,
+#search-todo button:hover {
+    background-color: black;
+    cursor: pointer;
+}
